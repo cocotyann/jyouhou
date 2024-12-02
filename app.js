@@ -17,7 +17,7 @@
                 result = "水族館";
             } else if (colour === "体を動かす気分" && number ===2  ) {
                 result = "地域のスポーツセンター";
-            } else if (colour === "体を動かす気分 " && number ===2 ) {
+            } else if (colour === "のんびり気分 " && number ===2 ) {
                 result = "お家でゴロゴロ";
             }else if (colour === "スキッリ気分" && number ===2  ) {
                 result = "ネットで買い物";
