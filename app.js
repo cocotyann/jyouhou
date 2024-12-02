@@ -3,24 +3,24 @@
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "凶"; // デフォルトの値
 
-            if (colour === "黒" && number === 0) {
-                result = "小吉";
-            } else if (colour === "黒" && number === 1) {
-                result = "中吉";
-            } else if (colour === "黒" && number === 2) {
-                result = "凶";
-            } else if (colour === "白" && number === 0) {
-                result = "中吉";
-            } else if (colour === "白" && number === 1) {
-                result = "中吉";
-            } else if (colour === "白" && number === 2) {
-                result = "大凶";
-            } else if (colour === "オレンジ" && number === 0) {
-                result = "凶";
-            } else if (colour === "オレンジ" && number === 1) {
-                result = "大吉";
-            } else if (colour === "オレンジ" && number === 2) {
-                result = "中吉";
+            if (colour === "晴れ" && number === 体を動かす気分) {
+                result = "公園";
+            } else if (colour === "晴れ" && number === のんびり気分）｛　　
+            　　result = "温泉";
+　　　　　　　｝else if (colour === "晴れ" && number === 癒し気分) {
+                result = "動物園";
+            } else if (colour === "晴れ" && number === スキッリ気分) {
+                result = "遊園地";
+            } else if (colour === "晴れ" && number === ) {
+                result = "";
+            } else if (colour === "雨" && number === 家で過ごす気分) {
+                result = "ドラマ鑑賞　読書";
+            } else if (colour === "雨" && number === 癒し気分) {
+                result = "水族館";
+            } else if (colour === "雨" && number ===体を動かす気分 ) {
+                result = "地域のスポーツセンター";
+            } else if (colour === "雨" && number ===のんびり気分 ) {
+                result = "お家でゴロゴロ";
             }
 
             document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
