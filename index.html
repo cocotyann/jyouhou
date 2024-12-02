@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ビューポート設定を追加 -->
-<title>天気と気分でお出かけアドバイス</title>
+<title>気分と天気でお出かけアドバイス</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     
@@ -17,14 +17,15 @@
     </nav>
 
         <br>
-        <label for="colour-select">天気を選んでください：</label>
+        <label for="colour-select">気分を選んでください：</label>
         <select id="colour-select">
-            <option value="晴れ">晴れ</option>
-            <option value="雨">雨</option>
-            
-        </select>
-        <br>
-        <label for="number-input">気分を選んでください：</label>
+            <option value="スキッリ気分">スキッリ気分</option>
+            <option value="体を動かす気分">体を動かす気分</option>
+             <option value="のんびり気分">のんびり気分</option>
+         　　<option value="癒し気分">癒し気分</option> 
+         　　<option value="気分">気分</option> 
+        </select> <br>
+        <label for="number-input">天気を選んでください（晴れ＝1　雨＝2）：</label>
         <input type="number" id="number-input">
         <br>
         <button onclick="checkFortune()">お出かけアドバイス</button>
