@@ -23,5 +23,5 @@
                 result = "お家でゴロゴロ";
             }
 
-            document.getElementById('result-output').innerText = "あなたの今週の運勢は【" + result + "】です";
+            document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
         }
