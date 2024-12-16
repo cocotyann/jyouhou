@@ -1,6 +1,6 @@
       function checkFortune() {
             var feeling = document.getElementById('feeling-select').value;
-            var number = parseInt(document.getElementById('weather-input').value, 10);
+            var weather = parseInt(document.getElementById('weather-input').value, 晴れ　雨);
             var result = "おでかけ先"; // デフォルトの値
 
             if (feeling === "体を動かす気分" && weather ===晴れ) {
