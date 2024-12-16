@@ -1,7 +1,7 @@
       function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "凶"; // デフォルトの値
+            var result = "おでかけ"; // デフォルトの値
 
             if (colour === "体を動かす気分" && number ===1 ) {
                 result = "公園";
@@ -21,6 +21,6 @@
                 result = "お家でゴロゴロ";
             }else if (colour === "スキッリ気分" && number ===2  ) {
                 result = "ネットで買い物";
-
+     　　　 ｝
             document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
         }
