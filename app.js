@@ -7,7 +7,7 @@
                 result = "公園";
             } else if (feeling === "のんびり気分" && number  === 1）｛　　
             　　result = "温泉";
-           } else if (feeling === "癒し気分" && number === 1) {
+            } else if (feeling === "癒し気分" && number === 1) {
                 result = "動物園";
             } else if (feeling === "スキッリ気分" && number === 1) {
                 result = "遊園地";
