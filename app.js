@@ -22,7 +22,7 @@
             }else if (feeling ==="家で過ごす気分" && number === 1)｛
                 result = "ドラマ鑑賞　読書";
             }else if (feeling ==="家で過ごす気分" && number === 2){
-                result = "読書";
+                result = "料理";
             } 
            document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
       }
