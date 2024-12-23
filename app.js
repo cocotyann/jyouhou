@@ -27,6 +27,10 @@
                 result = "ランニング";
       　    } else if (feeling ==="ダイエット気分" && number === 2) {
                 result = "筋トレ";
+            } else if (feeling ==="叫びたい気分" && number === 1) {
+                result = "遊園地";
+             } else if (feeling ==="叫びたい気分" && number === 2) {
+                result = "カラオケ";
             } 
            document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
       }
