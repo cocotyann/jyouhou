@@ -19,7 +19,7 @@
                 result = "遊園地";
             }else if (feeling === "スッキリ気分" && number === 2){ 　
                   result = "ネットで買い物　部屋の掃除";
-            }else if (feeling ==="家で過ごす気分" && number === 1)｛
+            }else if (feeling ==="家で過ごす気分" && number === 1){
                 result = "ドラマ鑑賞　読書";
             }else if (feeling ==="家で過ごす気分" && number === 2){
                 result = "料理";
