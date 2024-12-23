@@ -23,6 +23,10 @@
                 result = "ドラマ鑑賞　読書";
             } else if (feeling ==="家で過ごす気分" && number === 2) {
                 result = "料理";
+            } else if (feeling ==="ダイエット気分" && number === 1) {
+                result = "ランニング";
+      　    } else if (feeling ==="ダイエット気分" && number === 2) {
+                result = "筋トレ";
             } 
            document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
       }
