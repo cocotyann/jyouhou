@@ -28,7 +28,7 @@
       　    } else if (feeling ==="ダイエット気分" && number === 2) {
                 result = "筋トレ";
             } else if (feeling ==="叫びたい気分" && number === 1) {
-                result = "遊園地";
+                result = "遊園地の中でもジェトコースターとお化け屋敷";
              } else if (feeling ==="叫びたい気分" && number === 2) {
                 result = "カラオケ";
             } 
