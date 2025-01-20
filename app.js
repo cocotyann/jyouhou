@@ -32,7 +32,7 @@
              } else if (feeling ==="叫びたい気分" && number === 2) {
                 result = "カラオケ";
             } 
-           document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です";
+           document.getElementById('result-output').innerText = "君のお出かけ先は【" + result + "】です。よい１日を～";
       }
 
 
